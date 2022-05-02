@@ -1,0 +1,44 @@
+#dogImg {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+  margin-right: 40px;
+  max-width: 600px;
+  max-height: 600px;
+
+  float: right;
+  border-radius: 20px;
+}
+
+#marquee {
+  word-spacing: 30px;
+}
+
+#dog , #sense {
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+  background: linear-gradient(rgb(112, 169, 200), green, green);
+}
+
+.title {
+  background-color: rgb(89, 75, 194);
+  border-radius: 10px;
+  border-bottom: 7px;
+  border-color: black;
+  border-style: solid;
+  overflow: hidden;
+}
+
+h1:hover,
+h2:hover {
+  background-color: rgb(114, 97, 243);
+}
+
+span:hover,
+marquee:hover {
+  background-color: rgb(1, 136, 1);
+}
